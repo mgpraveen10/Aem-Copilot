@@ -1,0 +1,64 @@
+/* Radio button */
+.GenAi-RadioButton input[name="GenAiFeatures"] {
+  display: none;
+}
+
+.GenAi-RadioButton label {
+  border-radius: 7px;
+  padding: 5px;
+  float: left;
+  width: 5vw;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 1px solid #464646;
+  background: #fff;
+}
+
+.GenAi-RadioButton input[type="radio"]:checked+label {
+  background: #464646;
+  color: #fff;
+}
+
+.GenAi-RadioButton {
+  height: auto;
+  margin-bottom: 8%;
+  overflow: hidden;
+}
+
+
+/* multi text suggestion */
+.GenAi-Radio-btn {
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  display: block;
+  overflow: hidden;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.GenAi-input-btn {
+  display: none;
+  background: white;
+  color: black;
+}
+
+#response-option input[type="radio"]:checked+label {
+  background: #464646;
+  color: #fff;
+}
+
+/* multi Image Option */
+#largeImage {
+  height: 319px;
+  width: 300px;
+  background-color: #a1a6ad29;
+}
+
+#thumbs-resp>img {
+  height: 90px;
+  width: 98px;
+  cursor: pointer;
+  background-color: #c1cbda29;
+}
